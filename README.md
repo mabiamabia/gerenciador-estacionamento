@@ -1,5 +1,10 @@
 # gerenciador-estacionamento
-Projeto para sistema de gerenciamento de estacionamento
+
+# adicionar linguagens utilizadas
+
+# Adicionar apresentação do projeto
+
+## exemplo de apresentação: Projeto para sistema de gerenciamento de estacionamento
 
 O Sistema de Gerenciamento de Estacionamento é uma solução abrangente e eficaz projetada para simplificar e otimizar a gestão de estacionamentos, sejam eles públicos, privados, comerciais ou institucionais. Este sistema visa proporcionar uma experiência eficiente tanto para os operadores de estacionamentos quanto para os usuários finais, oferecendo uma série de recursos intuitivos e funcionais.
 
