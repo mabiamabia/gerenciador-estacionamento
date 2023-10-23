@@ -1,3 +1,6 @@
+<img width="451" alt="image" src="https://github.com/mabiamabia/gerenciador-estacionamento/assets/49458473/8c23d9cc-ad26-41ac-b8e9-407372d10ebe">
+
+
 # gerenciador-estacionamento
 
 # adicionar linguagens utilizadas
