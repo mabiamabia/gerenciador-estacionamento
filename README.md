@@ -13,14 +13,11 @@ O Estacionatech é um sistema de Gerenciamento de Estacionamento, uma solução 
 
 Você pode:
 
-* Reservas Online: Permite que os clientes reservem vagas de estacionamento com antecedência, economizando tempo e garantindo que haja um espaço disponível quando chegarem ao local.
+* Reservas Online
 
-* Controle de Acesso: Utiliza tecnologias como leitores de cartões, reconhecimento de placas de veículos e códigos QR para controlar o acesso de veículos ao estacionamento, garantindo a segurança e a eficiência.
+*  Relatórios e Análises
 
-* Monitoramento em Tempo Real: Oferece uma visão em tempo real da ocupação do estacionamento, permitindo que os operadores tomem decisões informadas sobre a gestão de espaços.
-
-
-
+* Gestão de Manutenção
 
 <h1>Funcionalidades </h1>
 
