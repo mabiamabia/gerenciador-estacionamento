@@ -1,9 +1,50 @@
 h1 {
-  color: #0000008d;
+  color: #1b165fc3;
   text-align: center;
   font-size: 90px;
 }
 
 body {
-  background-color: rgb(124, 137, 178);
+  background-color: #00010443;
+}
+
+.logo_big {
+  align-items: center;
+}
+
+header {
+  color: #1b165fc3;
+  padding: 10px 20px;
+  border-style: inset;
+  border-color: black;
+  border-radius: 100px;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+nav ul li:last-child {
+  margin-right: 0;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #1b165fc3;
+}
+
+nav ul li a:hover {
+  color: #ffffff;
+  font-size: large;
+}
+
+.reserva {
+  background-color: #1b165fc3;
 }
