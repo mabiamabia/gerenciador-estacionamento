@@ -1,11 +1,11 @@
 h1 {
-  color: #1b165fc3;
+  color: #60ccdf;
   text-align: center;
   font-size: 90px;
 }
 
 body {
-  background-color: #00010443;
+  background-color: #0f1117;
 }
 
 .logo_big {
@@ -13,7 +13,7 @@ body {
 }
 
 header {
-  color: #1b165fc3;
+  color: #60ccdf;
   padding: 10px 20px;
   border-style: inset;
   border-color: black;
@@ -37,7 +37,7 @@ nav ul li:last-child {
 
 nav ul li a {
   text-decoration: none;
-  color: #1b165fc3;
+  color: #60ccdf;
 }
 
 nav ul li a:hover {
@@ -46,5 +46,17 @@ nav ul li a:hover {
 }
 
 .reserva {
-  background-color: #1b165fc3;
+  background-color: #60ccdf;
+  border-color: white;
+  border-radius: 30%;
+}
+
+.about {
+  font-size: 50px;
+  text-align: center;
+  color: white;
+}
+
+.form-group {
+  color: white;
 }
