@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Sobre Nós - Estacionamento</title>
+    <title>Reserva Online - Estacionamento</title>
     <link
       rel="shortcut icon"
       href="./assets/logo_big.png"
@@ -35,39 +35,35 @@
         </ul>
       </nav>
     </header>
-    <div class="about-container">
-      <h1>Sobre Nós</h1>
-      <h2>Nossa Missão</h2>
-      <p>
-        Nossa missão é fornecer um serviço de estacionamento seguro, confiável e
-        conveniente para nossos clientes. Queremos facilitar a vida de quem
-        precisa estacionar, oferecendo um processo de reserva transparente e sem
-        surpresas.
-      </p>
-      <h2>Nossos Valores</h2>
-      <ul>
-        <li>
-          <strong>Transparência:</strong> Valorizamos a transparência em todas
-          as nossas interações com os clientes. Nossos preços são claros e não
-          há taxas ocultas.
-        </li>
-        <li>
-          <strong>Confiança:</strong> Nos esforçamos para ganhar a confiança de
-          nossos clientes, garantindo que suas reservas sejam tratadas com
-          cuidado e segurança.
-        </li>
-        <li>
-          <strong>Conveniência:</strong> Buscamos tornar o estacionamento o mais
-          conveniente possível para nossos clientes, oferecendo um processo de
-          reserva rápido e fácil.
-        </li>
-        <li>
-          <strong>Excelência no Atendimento ao Cliente:</strong> Nossa equipe
-          está comprometida em fornecer um serviço excepcional ao cliente,
-          sempre disponível para ajudar e resolver quaisquer problemas.
-        </li>
-      </ul>
-    </div>
+
+    <center>
+      <div class="form-container">
+        <h1>Reserva Online</h1>
+        <form action="processar_reserva.php" method="POST">
+          <label for="nome">Nome:</label>
+          <input type="text" id="nome" name="nome" required />
+
+          <label for="email">E-mail:</label>
+          <input type="email" id="email" name="email" required />
+
+          <label for="telefone">Telefone:</label>
+          <input type="tel" id="telefone" name="telefone" required />
+
+          <label for="data">Data da reserva:</label>
+          <input type="date" id="data" name="data" required />
+
+          <label for="horario">Horário da reserva:</label>
+          <input type="time" id="horario" name="horario" required />
+
+          <button type="submit">Enviar</button>
+          <a href="./index.html"
+            >Voltar
+            <span class="material-symbols-outlined">undo</span>
+          </a>
+        </form>
+      </div>
+    </center>
+
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>

@@ -1,8 +1,9 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Como Chegar - Estacionamento</title>
     <link
       rel="shortcut icon"
       href="./assets/logo_big.png"
@@ -12,19 +13,11 @@
       rel="stylesheet"
       href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
     />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+    />
     <link rel="stylesheet" href="style.css" />
-    <title>Como Chegar</title>
-    <style>
-      body,
-      th,
-      td {
-        color: white;
-      }
-      #map {
-        height: 400px;
-        width: 100%;
-      }
-    </style>
   </head>
   <body>
     <header>
@@ -35,35 +28,34 @@
           <li><a href="price.html">TABELA DE PREÇOS</a></li>
           <li><a href="adress.html">COMO CHEGAR</a></li>
           <li><a href="registerCostumer.html">CADASTRO DE CLIENTE</a></li>
+          <li><a href="partnership.html">CONVÊNIOS E PARCEIROS</a></li>
+          <li><a href="faq.html">FAQ</a></li>
+          <li><a href="contact.html">CONTATO</a></li>
+          <li><a href="reserve.html">RESERVA ONLINE</a></li>
         </ul>
       </nav>
     </header>
 
-    <div class="about">Como Chegar</div>
-    <div class="container">
-      <div class="row">
-        <div class="col-md-6">
-          <p>
-            Endereço: Parque Ibirapuera, Avenida Pedro Álvares Cabral, s/n -
-            Vila Mariana, São Paulo - SP, 04094-050, Brasil
-          </p>
-          <div id="map"></div>
-        </div>
-        <div class="col-md-6">
-          <iframe
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3656.370130729981!2d-46.65965068454882!3d-23.58709618466657!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce588c1fd37f97%3A0x287e374aaafa98a4!2sParque%20Ibirapuera!5e0!3m2!1sen!2sbr!4v1620834432295!5m2!1sen!2sbr"
-            width="600"
-            height="450"
-            style="border: 0"
-            allowfullscreen=""
-            loading="lazy"
-          ></iframe>
-        </div>
+    <div class="address-container">
+      <h1>Como Chegar</h1>
+      <p>
+        Nosso estacionamento está localizado na Avenida Pedro Álvares Cabral, em
+        São Paulo. Venha nos visitar!
+      </p>
+      <div class="map-container">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3657.8659052662214!2d-46.648652884746284!3d-23.588945284670553!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce59047a8be5c5%3A0x34f4b51eac04c9b5!2sAv.%20Pedro%20%C3%81lvares%20Cabral%2C%20Ibirapuera%2C%20S%C3%A3o%20Paulo%20-%20SP%2C%2004031-125!5e0!3m2!1sen!2sbr!4v1621860610820!5m2!1sen!2sbr"
+          width="600"
+          height="450"
+          style="border: 0"
+          allowfullscreen=""
+          loading="lazy"
+        ></iframe>
       </div>
     </div>
 
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
   </body>
 </html>

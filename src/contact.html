@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Tabela de Preços - Estacionamento</title>
+    <title>Contato - Estacionamento</title>
     <link
       rel="shortcut icon"
       href="./assets/logo_big.png"
@@ -23,49 +23,41 @@
     <header>
       <nav>
         <ul>
-          <li><a href="index.html">HOME</a></li>
+          <li><a href="./index.html">HOME</a></li>
           <li><a href="about.html">SOBRE NÓS</a></li>
           <li><a href="price.html">TABELA DE PREÇOS</a></li>
           <li><a href="adress.html">COMO CHEGAR</a></li>
           <li><a href="registerCostumer.html">CADASTRO DE CLIENTE</a></li>
-          <li><a href="partnership.html">CONVÊNIOS E PARCEIROS</a></li>
-          <li><a href="faq.html">FAQ</a></li>
-          <li><a href="contact.html">CONTATO</a></li>
-          <li><a href="reserve.html">RESERVA ONLINE</a></li>
+          <li><a href="./partnership.html">CONVENIOS E PARCEIROS</a></li>
+          <li><a href="./faq.html">FAQ</a></li>
+          <li><a href="./contact.html">CONTATO</a></li>
+          <li><a href="./reserve.html">RESERVA ONLINE</a></li>
         </ul>
       </nav>
     </header>
 
-    <center>
-      <div class="price-container">
-        <h1>Tabela de Preços</h1>
-        <table>
-          <tr>
-            <th>Tipo de Vaga</th>
-            <th>Preço (R$)</th>
-            <th>Descrição</th>
-          </tr>
-          <tr>
-            <td>Vaga Padrão</td>
-            <td>R$ 50,00</td>
-            <td>Vaga padrão para estacionamento de veículo de porte comum.</td>
-          </tr>
-          <tr>
-            <td>Vaga VIP</td>
-            <td>R$ 100,00</td>
-            <td>
-              Vaga VIP para estacionamento de veículo de porte luxuoso ou
-              preferencial.
-            </td>
-          </tr>
-          <tr>
-            <td>Vaga Mensal</td>
-            <td>R$ 300,00</td>
-            <td>Vaga mensal para uso contínuo durante todo o mês.</td>
-          </tr>
-        </table>
-      </div>
-    </center>
+    <div class="form-container">
+      <h1>Contato</h1>
+      <form action="enviar_contato.php" method="POST">
+        <label for="nome">Nome:</label>
+        <input type="text" id="nome" name="nome" required />
+
+        <label for="email">E-mail:</label>
+        <input type="email" id="email" name="email" required />
+
+        <label for="assunto">Assunto:</label>
+        <input type="text" id="assunto" name="assunto" required />
+
+        <label for="mensagem">Mensagem:</label>
+        <textarea id="mensagem" name="mensagem" rows="5" required></textarea>
+
+        <button type="submit">Enviar</button>
+        <a href="./index.html"
+          >Voltar
+          <span class="material-symbols-outlined">undo</span>
+        </a>
+      </form>
+    </div>
 
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
