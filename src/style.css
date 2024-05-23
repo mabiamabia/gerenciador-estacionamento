@@ -171,6 +171,13 @@ th {
 .card-text {
   color: #000000;
 }
-.card-body {
-  color: #60ccdf;
+
+input[type="date"]::-webkit-calendar-picker-indicator,
+input[type="time"]::-webkit-calendar-picker-indicator {
+  filter: invert(1);
+}
+
+.imagem-sucesso {
+  max-width: 300px;
+  height: auto;
 }
